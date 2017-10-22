@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
+$LOAD_PATH << './lib'
 
 require 'nmax'
 
 arg = ARGV.first
-NMax.result(arg)
+Nmax.result(arg)
