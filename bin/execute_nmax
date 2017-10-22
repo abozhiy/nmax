@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'nmax'
+
+arg = ARGV.first
+NMax.result(arg)

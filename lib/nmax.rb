@@ -1,5 +1,12 @@
 require "nmax/version"
 
-module Nmax
-  # Your code goes here...
+
+
+module NMax
+
+  def self.result(arg, stream = $stdin)
+    puts arg
+    puts stream
+    puts "AAAA"
+  end
 end
